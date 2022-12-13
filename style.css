@@ -85,7 +85,7 @@
 	border-radius: 12px;
 }
 .places h2{
-	color: red;
+	color: blue;
 	font-size: 35px;
 	letter-spacing: 3px;
 	border-radius: 1px;
@@ -94,7 +94,7 @@
 }
 .places a{
 	text-decoration: none;
-	color: red;
+	color: blue;
 	font-weight: bold;
 	font-size: 18px;
 	border-radius: 12px;
