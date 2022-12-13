@@ -9,11 +9,11 @@
 .navbar{
 	width: 100%;
 	height: 80px;
-	background-color: #Red;
+	background-color: #fee;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	color: #Red;
+	color: #000;
 }
 .menu ul{
 	display: flex;
