@@ -18,6 +18,17 @@
 .menu ul{
 	display: flex;
 	align-items: center;
+}
+.menu ul li a{
+	text-decoration: none;
+	color: #000;
+	padding: 5px 12px;
+	letter-spacing: 2px;
+	font-size: 18px;
+}
+.menu ul li a:hover{
+	border-bottom: 4px solid #000;
+	transition: 0.4s;
 } 
 .signup a{
 	text-decoration: none;
