@@ -9,12 +9,12 @@
 .navbar{
 	width: 100%;
 	height: 80px;
-	background-color: red;
+	background-color: blue;
 	opacity: 1;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	color: solid red;
+	color: solid blue;
 }
 .menu ul{
 	display: flex;
