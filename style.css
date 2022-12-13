@@ -27,8 +27,8 @@
 	font-size: 18px;
 }
 .menu ul li a:hover{
-	border-bottom: 4px solid #000;
-	transition: 0.4s;
+	background-color: red;
+	transition: 0.6s;
 } 
 .signup a{
 	text-decoration: none;
