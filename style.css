@@ -28,6 +28,6 @@
 	font-size: 18px;
 }
 .menu ul li a:hover{
-	background-color: red;
+	background-color: blue;
 	transition: 0.6s;
 } 
