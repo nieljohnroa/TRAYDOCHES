@@ -27,8 +27,11 @@
 	font-size: 18px;
 }
 .menu ul li a:hover{
-	border-bottom: 4px solid #000;
-	transition: 0.4s;
+	border-bottom: 1px solid #000;
+	border-top: 1px solid #000;
+	border-left: 1px solid #000;
+	border-right: 1px solid #000;
+	transition: 0.2s;
 } 
 .signup a{
 	text-decoration: none;
