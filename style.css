@@ -49,7 +49,7 @@
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)),url(img1.jpg);
+	background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)),url(bg.jpg);
 	background-position: center;
 	background-size: cover;
 }
