@@ -71,7 +71,7 @@
 	justify-content: space-around;
 }
 .places{
-	display: inline;
+	display: table-row;
 	text-align: center;
 	border-radius: 12px;
 }
