@@ -27,11 +27,11 @@
 	font-size: 18px;
 }
 .menu ul li a:hover{
-	border-bottom: 1px solid black;
-	border-top: 1px solid black;
-	border-left: 1px solid black;
-	border-right: 1px solid black;
-	background-color: red;
+	border-bottom: 2px solid red;
+	border-top: 2px solid red;
+	border-left: 1px solid red;
+	border-right: 1px solid red;
+	background-color: lightgrey;
 	transition: 0.1s;
 } 
 .body{
