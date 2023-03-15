@@ -47,7 +47,7 @@ table.inner{
   padding: 0.3em;
 }
 }
-
+ 
 </style>
 </head>
  
@@ -63,8 +63,8 @@ table.inner{
 
 <tr>
 <td>FIRST NAME</td>
-<td><input type="text" name="firstname" id="firstname" maxlength="20"  required /> 
-(max 20 characters a-z and A-Z)
+<td><input type="text" name="firstname" id="firstname" maxlength="30"  required /> 
+(max 30 characters a-z and A-Z)
 <div id="nameError" class="error>"></div>
 </td>
 </tr>
@@ -75,8 +75,8 @@ table.inner{
 
 <tr>
 <td>LAST NAME</td>
-<td><input type="text" name="lastname" id="lastname" maxlength="20"required/>
-(max 20 characters a-z and A-Z)
+<td><input type="text" name="lastname" id="lastname" maxlength="30"required/>
+(max 30 characters a-z and A-Z)
 <div id="lastnameError" class="error>"></div>
 </td>
 </tr>
@@ -85,8 +85,8 @@ table.inner{
   for="middlename"></label>
 <tr>
 <td>MIDDLE NAME</td> 
-<td><input type="text" name="middlename" id="middlename" maxlength="20" required/>
-(max 20 characters a-z and A-Z)
+<td><input type="text" name="middlename" id="middlename" maxlength="30" required/>
+(max 30 characters a-z and A-Z)
 <div id="middlenameError" class="error>"></div>
 </td>
 </tr>
@@ -96,7 +96,7 @@ table.inner{
 <td>DATE OF BIRTH</td>
  
 <td>
-<select name="Birthday_day" id="birthday" required>
+<select name="Birthday_day" id="birthday">
 <option value="-1">Day:</option>
 <option value="1">1</option>
 <option value="2">2</option>
@@ -135,7 +135,7 @@ table.inner{
 <option value="31">31</option>
 </select>
  
-<select name="Birthday_Month" id="bmonth" required>
+<select name="Birth_Month" id="bmonth">
 <option value="-1">Month:</option>
 <option value="January">Jan</option>
 <option value="February">Feb</option>
@@ -151,7 +151,7 @@ table.inner{
 <option value="December">Dec</option>
 </select>
  
-<select name="Birthday_Year" id="byear" required>
+<select name="Birthday_Year" id="byear">
  
 <option value="-1">Year:</option>
 <option value="2009">2023</option>
@@ -211,7 +211,7 @@ table.inner{
 <td>GENDER</td>
 <td>
 Male <input type="radio" name="Gender" id="male" value="Male" required />
-Female <input type="radio" name="Gender" id="female" value="Female"  required/>
+Female <input type="radio" name="Gender" id="female" value="Female" required />
 </td>
 </tr>
  
@@ -334,10 +334,11 @@ Female <input type="radio" name="Gender" id="female" value="Female"  required/>
 <tr>
 <td colspan="2" align="center">
 <input type="submit" value="Submit">
+<input type="reset" value="Reset">
 </td>
 </tr>
 
- 
+ </table>
 </form>
 <script>
 const firstname = document.getElementById('firstname');
@@ -390,8 +391,8 @@ function showError(){
 if (lastname.validity.valueMissing) {
 lastnameError.textContent = 'please fill in this field';
 
-} else (firstname.validity.valid) {
-    firstnameError.textContent = "Success";
+} else (middlename.validity.valid) {
+    middlenameError.textContent = "Success";
 
 emailError.className = "error active";
 </script>
